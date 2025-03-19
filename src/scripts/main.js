@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const horas = Math.floor((aniversario % (24 * horasMs)) / horasMs);
         const minutos = Math.floor((aniversario % horasMs) / minutosMs);
-        const segundos = Math.floor((aniversario % minutosMs) / 1000);
+        const segundos = Math.floor((aniversario % minutosMs) / segundosMs);
 
         return { aniversario, meses, dias, horas, minutos, segundos };
     }
