@@ -7,4 +7,21 @@
     &--primary {
         background-color: green;
     }
+
+    @media (max-width: 649px) {
+        padding: 14px 25px;
+
+        &--primary {
+            font-size: 17px;
+            white-space: nowrap;
+        }
+    }
+
+    @media (min-width: 650px) and (max-width: 1023px) {
+
+        &--primary {
+            font-size: 28px;
+            white-space: nowrap;
+        }
+    }
 }

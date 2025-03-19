@@ -1,5 +1,6 @@
 .mensagem {
     background-color: black;
+    display: none;
 
     .container {
         display: flex;
@@ -21,5 +22,37 @@
     &__parabens {
         width: 700px;
         padding: 24px 0 50px;
+    }
+
+    @media (max-width: 649px) {
+
+        &__foto {
+            width: 300px;
+        }
+
+        &__title {
+            padding-left: 0;
+        }
+
+        &__parabens {
+            width: 300px;
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width: 650px) and (max-width: 1023px) {
+
+        &__foto {
+            width: 600px;
+        }
+        
+        &__title {
+            padding-left: 45px;
+        }
+
+        &__parabens {
+            width: 600px;
+            font-size: 24px;
+        }
     }
 }

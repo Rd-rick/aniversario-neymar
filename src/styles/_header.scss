@@ -27,13 +27,14 @@
 
     &__logo {
         width: 320px;
+        padding-top: 40px;
     }
 
     &__title {
         text-align: center;
     }
 
-    @media (max-width: 769px) {
+    @media (max-width: 649px) {
         background-position: center;
         
         .container {
@@ -41,11 +42,24 @@
         }
 
         &__logo {
-            width: 240px;
+            width: 300px;
         }
 
         &__title {
             font-size: 28px;
         }
     }
+
+    @media (min-width: 650px) and (max-width: 1023px) {
+
+        &__logo {
+            width: 400px;
+        }
+
+        &__title {
+            font-size: 40px;
+        }
+    }
+
+    
 }

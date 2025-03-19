@@ -1,5 +1,3 @@
-const presente = document.querySelector('.mensagem');
-
 document.addEventListener('DOMContentLoaded', function() {
     const dataAniversario = new Date('02/05/2026 00:00:00');
     const dataStampAniversario = dataAniversario.getTime();
@@ -70,6 +68,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function abrirPresente() { 
+        const presente = document.querySelector('.mensagem');
+        presente.style.display = 'block'
+
         let mensagem = `<div class="container">` 
         mensagem += `<img class="mensagem__foto" src="/neymar.c0330475.png" alt="Neymar">` 
         mensagem += `<h2 class="mensagem__title"><b>Parabéns Neymar</b></h2>` 
