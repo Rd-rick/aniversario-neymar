@@ -1,0 +1,25 @@
+.mensagem {
+    background-color: black;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__foto {
+        width: 700px;
+    }
+
+    &__title {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 70px;
+    }
+
+    &__parabens {
+        width: 700px;
+        padding: 24px 0 50px;
+    }
+}

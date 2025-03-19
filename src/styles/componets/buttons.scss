@@ -1,0 +1,10 @@
+.buttons {
+    padding: 14px 60px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    
+    &--primary {
+        background-color: green;
+    }
+}
